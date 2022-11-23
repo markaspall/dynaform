@@ -1,0 +1,31 @@
+{
+	"type": "page",
+	"label": "Contact Us",
+	"sublabel": "We would love to hear from you",
+	"info": "This is the information text",
+	"image": "/assets/images/contact-form.png",
+	"elements": [{
+		"type": "form",
+		"submit":{"label": "Send"},
+		"label": "Contact Us",
+		"sublabel": "We would love to hear from you",
+		"info": "This is the info text",
+		"image": "/assets/images/contact-form.png",
+		"elements": [{
+			"label":"Full name", 
+			"type": "text", 
+			"info": "Full name including any initials",
+			"image": "https://cdn-icons-png.flaticon.com/128/6135/6135324.png",
+			"required": true, 
+			"Error":"Please enter your full name"
+			}, {
+			"label": "Email", 
+			"type": "email", 
+			"required": true, 
+			"Error":"Please enter valid email address"
+			},
+			{"label": "Subject", "type": "text", "required": false},
+			{"label": "Subject", "type": "text"}
+		]
+	}]
+}
